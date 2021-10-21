@@ -5,17 +5,18 @@
     <link rel="stylesheet" href="./style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    
     <script language="javascript" src="jquery-1.9.1.min.js" type="text/javascript"></script>
     <script language="javascript" src="jquery-ui.min.js" type="text/javascript"></script>
     <script language="javascript" src="jq.rolling.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
     <title>인터파크</title>
 </head>
 
 <body>
-    <div class="topbtn">
-       <a href="#"><p>TOP</p></a> 
-    </div>
     <header>
         <div class="header">
             <div class="navbar">
@@ -94,48 +95,26 @@
     </div>
 <div class="fixed-back">
     <div class="fixed"></div>
-</div>
-<div id="rolling-main">
-	<div id="rolling">
-		<ul>
-			<a href="https://tickets.interpark.com/goods/21008179"><li class="sp01"></li></a>
-            <a href="https://tickets.interpark.com/goods/21006842">
-			<li class="sp02"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21007215">
-			<li class="sp03"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21005196">
-			<li class="sp04"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21006800">
-			<li class="sp05"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21004941">
-			<li class="sp06"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21007693">
-			<li class="sp07"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21008296">
-			<li class="sp08"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21006513">
-			<li class="sp09"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21007817">
-			<li class="sp10"></li>
-            </a>
-            <a href="https://tickets.interpark.com/goods/21007221">
-			<li class="sp11"></li>
-            </a>
-		</ul>
-	</div>
-    <div class="pages">
-        <ul>
-        </ul>
-    </div>
-    
+</div>    
+ <div id="rolling-main">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/bg-image1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image8.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image9.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image10.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/bg-image11.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     <div class ="title-time">
         <div id="time">
             <span id="year">0000</span>년
